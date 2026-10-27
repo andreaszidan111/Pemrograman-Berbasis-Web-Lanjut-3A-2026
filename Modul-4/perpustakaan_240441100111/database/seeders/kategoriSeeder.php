@@ -1,0 +1,17 @@
+<?php
+
+namespace Database\Seeders;
+
+use App\Models\kategori;
+use Illuminate\Database\Seeder;
+
+class kategoriSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     */
+    public function run(): void
+    {
+        kategori::factory(7)->create();
+    }
+}
